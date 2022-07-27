@@ -61,19 +61,19 @@ const playBtn = document.querySelector(".play"),
             name: "Romantic Evening",
             artist: "SonicPulse",
             cover: "https://images.unsplash.com/photo-1526047932273-341f2a7631f9?ixlib=rb-1.2.1&dl=amy-shamblen-qdPnQuGeuwU-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb",
-            source: "https://tunetank-production.s3.us-west-2.amazonaws.com/tracks/659/versions/328.mp3?AWSAccessKeyId=AKIAVRNTQNFKJKL4O7VE&Expires=1658573840&Signature=QS3Zivfyoe1Ddk5360D15JSgZiE%3D&response-content-disposition=attachment%3Bfilename%3Dtunetank.com_659_romantic-evening_by_sonicpulse.mp3",
+            source: "musics/tunetank.com_659_romantic-evening_by_sonicpulse.mp3",
         },
         {
             name: "Inspiring Background",
             artist: "Musicstockproduction",
             cover: "https://images.unsplash.com/photo-1533119408463-b0f487583ff6?ixlib=rb-1.2.1&dl=dmytro-tolokonov-Jq3WI9IQgEs-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb",
-            source: "https://tunetank-production.s3.us-west-2.amazonaws.com/tracks/2293/versions/1421.mp3?AWSAccessKeyId=AKIAVRNTQNFKJKL4O7VE&Expires=1658574710&Signature=pbmL%2FwTatXSeTwgjh9fUY3C95qQ%3D&response-content-disposition=attachment%3Bfilename%3Dtunetank.com_2293_inspiring-background_by_musicstockproduction.mp3",
+            source: "musics/tunetank.com_2293_inspiring-background_by_musicstockproduction.mp3",
         },
         {
             name: "Night City",
             artist: "SonicPulse",
             cover: "https://images.unsplash.com/photo-1577943306215-c7cc19b1ff89?ixlib=rb-1.2.1&dl=josue-as-QOBW_juS9Nc-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb",
-            source: "https://tunetank-production.s3.us-west-2.amazonaws.com/tracks/892/versions/453.mp3?AWSAccessKeyId=AKIAVRNTQNFKJKL4O7VE&Expires=1658625624&Signature=cuA%2FALPNiKv8Rla3YsUAk31Ijq8%3D&response-content-disposition=attachment%3Bfilename%3Dtunetank.com_892_night-city_by_sonicpulse.mp3",
+            source: "musics/tunetank.com_892_night-city_by_sonicpulse.mp3",
         },
     ];
 
