@@ -3,7 +3,7 @@
   height: 100vh;
   width: 100vw;
   background-color: #f7ce99;
-  background-image: url('/images/desk-bg.svg');
+  background-image: url('images/posts/desk-bg.png');
 }
 
 .laptop-1 {
@@ -595,6 +595,22 @@ animation: loading-screen 3s;
  width: 100%;
  height: auto;
  border-radius: 100%;
+}
+
+.introduction-bg {
+  background-color: #FA8BFF;
+  background-image: linear-gradient(225deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+  background-size: 400% 100%;
+  animation: bg-animation 3s infinite alternate;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+
+@keyframes bg-animation {
+  0% {background-position: left;}
+  100% {background-position: right;}
 }
 
 /* ------------------------------------------- media query ------------------------------------------- */
