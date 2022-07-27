@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 398.56 433.99">
+   <defs>
+      <linearGradient id='a' gradientUnits='objectBoundingBox' x1='0' y1='0' x2='1' y2='1'>
+         <stop offset='0' stop-color='red'>
+            <animate attributeName="stop-color"
+               values="#ffffff;#99ffff;#85dcff;#00b7ff;#009dff;#0084ff;#0062ff;#ffffff;" dur="10s" repeatCount="indefinite">
+            </animate>
+         </stop>
+         <stop offset='.5' stop-color='purple'>
+            <animate attributeName="stop-color"
+               values="#00b7ff;#85dcff;#00b7ff;#009dff;#0084ff;#0062ff;#ffffff;#00b7ff;" dur="10s" repeatCount="indefinite">
+            </animate>
+         </stop>
+         <stop offset='1' stop-color='blue'>
+            <animate attributeName="stop-color"
+               values="#0062ff;#ffffff;#99ffff;#85dcff;#00b7ff;#009dff;#0084ff;#0062ff;" dur="10s" repeatCount="indefinite">
+            </animate>
+         </stop>
+         <animateTransform attributeName="gradientTransform" type="rotate" from="0 .5 .5" to="360 .5 .5"
+            dur="20s" repeatCount="indefinite" />
+      </linearGradient>
+      <linearGradient id='b' gradientUnits='objectBoundingBox' x1='0' y1='1' x2='1' y2='1'>
+         <stop offset='0' stop-color='red'>
+            <animate attributeName="stop-color"
+               values="#ffffff;#99ffff;#85dcff;#00b7ff;#009dff;#0084ff;#0062ff;#ffffff;" dur="10s" repeatCount="indefinite">
+            </animate>
+         </stop>
+         <stop offset='1' stop-color='purple' stop-opacity="0">
+            <animate attributeName="stop-color"
+               values="#00b7ff;#85dcff;#00b7ff;#009dff;#0084ff;#0062ff;#ffffff;#00b7ff;" dur="10s" repeatCount="indefinite">
+            </animate>
+         </stop>
+         <animateTransform attributeName="gradientTransform" type="rotate" values="360 .5 .5;0 .5 .5" class="ignore"
+            dur="10s" repeatCount="indefinite" />
+      </linearGradient>
+   </defs>
+   <g id="laptop-boarder">
+    <rect class="cls-1" fill='none' width="398.56" height="433.99"/>
+  </g>
+  <g id="laptop-screen-1">
+    <path class="cls-2" fill='url(#a)' d="M910.19,183.08H528.76a2.93,2.93,0,0,0-3,3.28l19.4,122.74a3,3,0,0,0,3,2.44H891.81a3,3,0,0,0,3-2.46l18.38-122.75A2.93,2.93,0,0,0,910.19,183.08Z" transform="translate(-520.44 -103.65)"/>
+  </g>
+  <g id="laptop-screen-2">
+    <path class="cls-3" fill='url(#b)' d="M910.19,183.08H528.76a2.93,2.93,0,0,0-3,3.28l19.4,122.74a3,3,0,0,0,3,2.44H891.81a3,3,0,0,0,3-2.46l18.38-122.75A2.93,2.93,0,0,0,910.19,183.08Z" transform="translate(-520.44 -103.65)"/>
+  </g>
+</svg>

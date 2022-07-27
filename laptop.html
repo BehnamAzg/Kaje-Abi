@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KajeAbi - Laptop</title>
+  <link href="https://cdn.jsdelivr.net/gh/rastikerdar/shabnam-font@v[5.0.1]/dist/font-face.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="laptop-styles.css">
+  <link rel="stylesheet" href="general-styels.css">
+  <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+  <script src="https://kit.fontawesome.com/860e7596f3.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+</head>
+
+<body onload="initClock()">
+  <div class="works-wrapper">
+
+    <div class="screen-border">
+      <div class="screen">
+        <img class="screen-bg" src="images/loading-bg.svg">
+        <img class="logo-bg" src="images/logo.svg" alt="KajeAbi">
+        <div class="folder">
+          <img class="folder-icon" src="images/folder-icon.svg" alt="Folder">
+          <div class="folder-name">نمونه کارها</div>
+        </div>
+        
+        <div class="task-bar">
+          <div class="date-time">
+            <div class="time">
+              <span id="hour">00</span>:
+              <span id="minutes">00</span>:
+              <span id="seconds">00</span>
+              <span id="period">AM</span>
+            </div>
+            <div class="date">
+              <span id="day-name">Day</span>,
+              <span id="month">Month</span>
+              <span id="day-num">00</span>,
+              <span id="year">Year</span>
+            </div>
+          </div>
+          <div class="win-wrwpper"><img class="win-icon" src="images/win-logo.svg" alt="Start"></div>
+          <div class="folder-wrapper"><img class="folder-icon-task" src="images/folder-icon.svg" alt="File"></div>
+          <div class="music-player-wrapper"><img class="music-player-icon" src="images/music-player.svg" alt="Music Player"></div>
+        </div>
+
+        <div class="folder-open">
+          <div class="top-bar">
+            <div class="logo-name">KAJEABI</div>
+            <div class="search-box">
+              <div class="search-icon-box"><img class="search-icon" src="images/search.svg"></div>
+              <input dir="rtl" class="search-input" type="text" placeholder="جستجو...">
+            </div>
+            <div class="back"><img class="back-icon" src="images/back.svg" alt="Back"></div>
+            <div class="exit"><img class="exit-icon" src="images/exit.svg" alt="Exit"></div>
+          </div>
+          
+          <div class="grid-overflow">
+            <div class="grid-body">
+              <div class="grid-element grid-element-1"><div class="detail-pop-up" id="detail-1"><p class="detail-text">کانسپت باز طراحی وب سایت اپلای جرمنی</p></div></div>
+              <div class="grid-element grid-element-2"><div class="detail-pop-up" id="detail-2"><p class="detail-text">طراحی تراکت و بنر لبنیات افشار</p></div></div>
+              <div class="grid-element grid-element-3"><div class="detail-pop-up" id="detail-3"><p class="detail-text">کانسپت لوگو شرکت پیمانکاری سفتکاری اطلس سازه</p></div></div>
+              <div class="grid-element grid-element-4"><div class="detail-pop-up" id="detail-4"><p class="detail-text">کانسپت طراحی پست و استوری پیج اینستاگرامی</p></div></div>
+              <div class="grid-element grid-element-5"><div class="detail-pop-up" id="detail-5"><p class="detail-text">کانسپت لوگو فروشگاه لوازم خانگی رف هوم</p></div></div>
+              <div class="grid-element grid-element-6"><div class="detail-pop-up" id="detail-6"><p class="detail-text">کانسپت لوگو فروشگاه اینترنتی هالند</p></div></div>
+              <div class="grid-element grid-element-7"><div class="detail-pop-up" id="detail-7"><p class="detail-text">طراحی کاور پست و استوری پیج اینستاگرامی</p></div></div>
+              <div class="grid-element grid-element-8"><div class="detail-pop-up" id="detail-8"><p class="detail-text">کانسپت لوگو شرکت بلاکچین دی فای باما</p></div></div>
+              <div class="grid-element grid-element-9"><div class="detail-pop-up" id="detail-9"><p class="detail-text">طراحی تراکت مزون بتی</p></div></div>
+            </div>
+          </div>
+
+          <div class="grid-overflow-second grid-overflow-1">
+            <div class="grid-body-open grid-body-open-1">
+              <div class="grid-element-open grid-element-open-left"><p>تاریخ: بهار 1401<br>کارفرما: پروژه تمرینی<br>مهارت: فیگما<br>لینک: <a href="https://applygermany.net" target="_blank">applygermany.net</a><br></p></div>
+              <div class="grid-element-open grid-element-open-right "><h3>کانسپت باز طراحی وب سایت اپلای جرمنی</h3><p>این پروژه تمرینی اولین کارم در زمینه طراحی رابط کاربری بود و همچنین اولین تجربم در استفاده از نرم افزار فیگما.</p></div>
+              <div class="grid-element-open grid-element-open-bottom grid-col-span-2">
+                <img class="post-img-1" src="images/posts/apply-germany-2.jpg">
+              </div>
+            </div>
+          </div>
+          <div class="grid-overflow-second grid-overflow-2">
+            <div class="grid-body-open grid-body-open-2">
+              <div class="grid-element-open grid-element-open-left"><p>تاریخ: زمستان 1400<br>کارفرما: لبنیات افشار<br>مهارت: آدوبی ایلوستریتور<br>لینک: <a href="https://www.instagram.com/afshar.dairy" target="_blank">afshar.dairy</a><br></p></div>
+              <div class="grid-element-open grid-element-open-right "><h3>طراحی تراکت و بنر لبنیات افشار</h3><p>چند طرح مختلف برای تراکت و بنر فروشگاه لبنیات افشار، از اولین تجربه هام در طراحی تراکت.</p></div>
+              <div class="grid-element-open grid-element-open-bottom grid-element-open-bottom-2 grid-col-span-2">
+                <img class="post-img-2" src="images/posts/afshar-dairy-4.png">
+                <img class="post-img-2" src="images/posts/afshar-dairy-2.png">
+                <img class="post-img-2" src="images/posts/afshar-dairy-3.png">
+              </div>
+            </div>
+          </div>
+          <div class="grid-overflow-second grid-overflow-3">
+            <div class="grid-body-open grid-body-open-3">
+              <div class="grid-element-open grid-element-open-left"><p>تاریخ: بهار 1401<br>کارفرما: پروژه تمرینی<br>مهارت: آدوبی ایلوستریتو<br>لینک: <br></p></div>
+              <div class="grid-element-open grid-element-open-right "><h3>کانسپت لوگو شرکت پیمانکاری سفتکاری اطلس سازه</h3><p>لوگو در سبک ترکیبی که برای شرکت در مسابقه پونیشا طراحی شد.</p></div>
+              <div class="grid-element-open grid-element-open-bottom grid-col-span-2">
+                <img class="post-img-3" src="images/posts/atlas-saze-2.jpg"">
+              </div>
+            </div>
+          </div>
+          <div class="grid-overflow-second grid-overflow-4">
+            <div class="grid-body-open grid-body-open-4">
+              <div class="grid-element-open grid-element-open-left"><p>تاریخ: بهار 1401<br>کارفرما: پروژه تمرینی<br>مهارت: آدوبی ایلوستریتو<br>لینک: <br></p></div>
+              <div class="grid-element-open grid-element-open-right "><h3>کانسپت طراحی پست و استوری پیج اینستاگرامی</h3><p>طرح تمرینی هویت بصری پیج اینستاگرامی که برای شرکت در مسابقه پونیشا طراحی شد.</p></div>
+              <div class="grid-element-open grid-element-open-bottom grid-col-span-2">
+                <img class="post-img-4" src="images/posts/apply-germmany-insta-2.png">
+              </div>
+            </div>
+          </div>
+          <div class="grid-overflow-second grid-overflow-5">
+            <div class="grid-body-open grid-body-open-5">
+              <div class="grid-element-open grid-element-open-left"><p>تاریخ: بهار 1401<br>کارفرما: پروژه تمرینی<br>مهارت: آدوبی ایلوستریتو<br>لینک: <br></p></div>
+              <div class="grid-element-open grid-element-open-right "><h3>کانسپت لوگو فروشگاه لوازم خانگی رف هوم</h3><p>لوگو در سبک تایپوگرافی که برای شرکت در مسابقه پونیشا طراحی شد.</p></div>
+              <div class="grid-element-open grid-element-open-bottom grid-col-span-2">
+                <img class="post-img-5" src="images/posts/raf-home-2.jpg">
+                <img class="post-img-5" src="images/posts/raf-home-3.jpg">
+              </div>
+            </div>
+          </div>
+          <div class="grid-overflow-second grid-overflow-6">
+            <div class="grid-body-open grid-body-open-6">
+              <div class="grid-element-open grid-element-open-left"><p>تاریخ: بهار 1401<br>کارفرما: پروژه تمرینی<br>مهارت: آدوبی ایلوستریتو<br>لینک: <br></p></div>
+              <div class="grid-element-open grid-element-open-right "><h3>کانسپت لوگو فروشگاه اینترنتی هالند</h3><p>لوگو در سبک تایپوگرافی که برای شرکت در مسابقه پونیشا طراحی شد.</p></div>
+              <div class="grid-element-open grid-element-open-bottom grid-col-span-2">
+                <img class="post-img-6" src="images/posts/haland-2.jpg">
+              </div>
+            </div>
+          </div>
+          <div class="grid-overflow-second grid-overflow-7">
+            <div class="grid-body-open grid-body-open-7">
+              <div class="grid-element-open grid-element-open-left"><p>تاریخ: بهار 1401<br>کارفرما: <br>مهارت: آدوبی ایلوستریتو<br>لینک: <br></p></div>
+              <div class="grid-element-open grid-element-open-right "><h3>طراحی کاور پست و استوری پیج اینستاگرامی</h3><p></p></div>
+              <div class="grid-element-open grid-element-open-bottom grid-col-span-2">
+                <img class="post-img-7" src="images/posts/news-2.jpg">
+                <img class="post-img-7" src="images/posts/news-3.jpg">
+              </div>
+            </div>
+          </div>
+          <div class="grid-overflow-second grid-overflow-8">
+            <div class="grid-body-open grid-body-open-8">
+              <div class="grid-element-open grid-element-open-left"><p>تاریخ: بهار 1401<br>کارفرما: پروژه تمرینی<br>مهارت: آدوبی ایلوستریتو<br>لینک: <br></p></div>
+              <div class="grid-element-open grid-element-open-right "><h3>کانسپت لوگو شرکت بلاکچین دی فای باما</h3><p>لوگو در سبک ترکیبی که برای شرکت در مسابقه پونیشا طراحی شد.</p></div>
+              <div class="grid-element-open grid-element-open-bottom grid-col-span-2">
+                <img class="post-img-8" src="images/posts/defi-bama-2.jpg">
+              </div>
+            </div>
+          </div>
+          <div class="grid-overflow-second grid-overflow-9">
+            <div class="grid-body-open grid-body-open-9">
+              <div class="grid-element-open grid-element-open-left"><p>تاریخ: بهار 1401<br>کارفرما: <br>مهارت: آدوبی ایلوستریتو<br>لینک: <br></p></div>
+              <div class="grid-element-open grid-element-open-right "><h3>طراحی تراکت مزون بتی</h3><p></p></div>
+              <div class="grid-element-open grid-element-open-bottom grid-col-span-2">
+                <img class="post-img-9" src="images/posts/betty-maison-2.jpg">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="audio-player">
+          <div class="player-name">MUSIC</div>
+          <div class="exit-audio"><img class="exit-icon" src="images/exit-2.svg" alt="Exit"></div>
+          <div class="audio-cover-wrapper">
+            <div class="audio-cover">
+              <img class="cover-img" src="images/Cover-1.jfif" alt="Cover">
+            </div>
+            <h2 class="audio-title">Title</h2>
+            <h5 class="audio-artist">Artist</h6>
+          </div>
+
+          <div class="audio-progress">
+            <div class="progress">
+              <div class="progress-bar"></div>
+              <div class="progress-head"></div>
+            </div>
+            <div class="current-time">00:00</div>
+            <div class="duration">00:00</div>
+          </div>
+
+          <div class="audio-btns">
+            <button class="btn skip-backward">
+              <i class="fa-solid fa-backward-step"></i>
+            </button>
+            <button class="btn play">
+              <i class="fa-solid fa-play"></i>
+            </button>
+            <button class="btn skip-forward">
+              <i class="fa-solid fa-forward-step"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="start-wrapper">
+          <a href="index.html">
+            <div class="shut-down"><img class="shut-down-icon" src="images/shut-down.svg" alt="Shut Down"></div>
+            <p class="shut-down-text">خاموش</p>
+           </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="laptop-scripts.js"></script>
+</body>
+</html>

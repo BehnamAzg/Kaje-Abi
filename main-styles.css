@@ -1,0 +1,688 @@
+.main {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f7ce99;
+  background-image: url('/images/desk-bg.svg');
+}
+
+.laptop-1 {
+  position: absolute;
+  height: auto;
+  width: auto;
+  max-width: 22em;
+  top: 22%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.laptop-2 {
+  position: absolute;
+  height: auto;
+  width: auto;
+  max-width: 22em;
+  top: 22%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+}
+
+.laptop-3 {
+  position: absolute;
+  height: auto;
+  width: auto;
+  max-width: 22em;
+  top: 22%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+}
+
+.laptop-4 {
+  position: absolute;
+  height: auto;
+  width: auto;
+  max-width: 22em;
+  top: 22%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+}
+
+.laptop-screen {
+  position: absolute;
+  height: auto;
+  width: auto;
+  max-width: 22em;
+  top: 22%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+}
+
+.laptop-additional {
+  position: absolute;
+  height: auto;
+  width: auto;
+  max-width: 22em;
+  top: 22%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+}
+
+.laptop:hover {
+  cursor: pointer;
+}
+
+.laptop:hover .laptop-1 {
+  display: none;
+}
+
+.laptop:hover .laptop-2 {
+ animation: open 0.08s;
+}
+
+.laptop:hover .laptop-3 {
+  animation: open 0.13s linear 0.08s;
+}
+
+.laptop:hover .laptop-4 {
+  animation: open 20s linear 0.23s infinite;
+}
+
+.laptop:hover .laptop-screen {
+  animation: open 20s linear 0.23s infinite;
+}
+
+.laptop:hover .laptop-additional {
+  animation: open 20s linear 0.23s infinite;
+}
+
+
+.folder-1 {
+  position: absolute;
+  height: auto;
+  width: auto;
+  max-width: 22em;
+  top: 76%;
+  left: 56%;
+  transform: translate(-50%, -50%);
+}
+
+.folder-2 {
+  position: absolute;
+  height: auto;
+  width: auto;
+  max-width: 22em;
+  top: 76%;
+  left: 56%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+}
+
+.folder-3 {
+  position: absolute;
+  height: auto;
+  width: auto;
+  max-width: 22em;
+  top: 76%;
+  left: 56%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+}
+
+.folder:hover {
+  cursor: pointer;
+}
+
+.folder:hover .folder-1 {
+  display: none;
+}
+
+.folder:hover .folder-2 {
+ animation: open 0.10s;
+}
+
+.folder:hover .folder-3 {
+  animation: open 10s linear 0.10s infinite;
+}
+
+.notebook-1 {
+  position: absolute;
+  height: auto;
+  width: auto;
+  max-width: 14em;
+  top: 66%;
+  left: 28%;
+  transform: translate(-50%, -50%);
+}
+
+.notebook-2 {
+  position: absolute;
+  height: auto;
+  width: auto;
+  max-width: 14em;
+  top: 66%;
+  left: 28%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+}
+
+.notebook-3 {
+  position: absolute;
+  height: auto;
+  width: auto;
+  max-width: 14em;
+  top: 66%;
+  left: 28%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+}
+
+.notebook:hover {
+  cursor: pointer;
+}
+
+.notebook:hover .notebook-1 {
+  display: none;
+}
+
+.notebook:hover .notebook-2 {
+ animation: open 0.10s;
+}
+
+.notebook:hover .notebook-3 {
+  animation: open 10s linear 0.10s infinite;
+}
+
+.phone-1 {
+  position: absolute;
+  height: auto;
+  width: auto;
+  max-width: 10em;
+  top: 46%;
+  left: 73%;
+  transform: translate(-50%, -50%);
+}
+
+.phone-2 {
+  position: absolute;
+  height: auto;
+  width: auto;
+  max-width: 10em;
+  top: 46%;
+  left: 73%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+}
+
+.phone-3 {
+  position: absolute;
+  height: auto;
+  width: auto;
+  max-width: 10em;
+  top: 46%;
+  left: 73%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+}
+
+.phone-4 {
+  position: absolute;
+  height: auto;
+  width: auto;
+  max-width: 10em;
+  top: 46%;
+  left: 73%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+}
+
+.phone-5 {
+  position: absolute;
+  height: auto;
+  width: auto;
+  max-width: 11.5em;
+  top: 46.5%;
+  left: 73.5%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+}
+
+.phone:hover {
+  cursor: pointer;
+}
+
+.phone:hover .phone-1 {
+  display: none;
+}
+
+.phone:hover .phone-2 {
+ animation: open 0.08s;
+}
+
+.phone:hover .phone-3 {
+  animation: open 0.13s linear 0.08s;
+}
+
+.phone:hover .phone-4 {
+  animation: open 0.23s linear 0.18s;
+}
+
+.phone:hover .phone-5 {
+  animation: open 10s linear 0.29s infinite;
+}
+
+@keyframes open {
+  from {
+    visibility: hidden;
+  }
+  to {
+    visibility: visible;
+  }
+}
+
+.plant-img {
+  position: absolute;
+  height: auto;
+  width: auto;
+  max-width: 10em;
+  top: 34%;
+  left: 28%;
+  transform: translate(-50%, -50%);
+}
+
+.coffee-img {
+  position: absolute;
+  height: auto;
+  width: auto;
+  max-width: 6em;
+  top: 70%;
+  left: 77%;
+  transform: translate(-50%, -50%);
+}
+
+.pencil-img {
+  position: absolute;
+  height: auto;
+  width: auto;
+  max-width: 3em;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pen-img {
+  position: absolute;
+  height: auto;
+  width: auto;
+  max-width: 4em;
+  top: 84%;
+  left: 38%;
+  transform: translate(-50%, -50%);
+}
+
+.loading-screen {
+display: flex;
+justify-content: center;
+visibility: hidden;
+animation: loading-screen 3s;
+}
+
+.loading-bg {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+}
+
+.loading-logo {
+  position: absolute;
+  height: auto;
+  width: auto;
+  max-width: 14em;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loading-bar {
+  position: absolute;
+  height: auto;
+  width: auto;
+  max-width: 2.5em;
+  top: 74%;
+  animation: loading 1s ease infinite;
+}
+
+@keyframes loading {
+  to {
+    transform: rotate(-1turn);
+  }
+}
+
+@keyframes loading-screen {
+  to {
+    visibility: visible;
+  }
+}
+
+/* ---------------------------------------------- phone ---------------------------------------------- */
+
+.phone-opend {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.8);
+  visibility: hidden;
+}
+
+.phone-opend-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 90%;
+}
+
+.instagram-icon {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 10%;
+}
+
+.telegram-icon {
+  cursor: pointer;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 10%;
+}
+
+.phone-opend-text {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  direction: rtl;
+}
+
+.exit-phone-icon {
+  cursor: pointer;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 10%;
+}
+
+.phone-icons:hover {
+  height: 12%;
+}
+
+/* -------------------------------------------- notebook -------------------------------------------- */
+
+.notebook-opend {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.8);
+  visibility: hidden;
+}
+
+.notebook-open-1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 65%;
+}
+
+.notebook-open-2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 65%;
+  visibility: hidden;
+}
+
+.notebook-open-3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 65%;
+  visibility: hidden;
+}
+
+.notebook-open-4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 65%;
+  visibility: hidden;
+}
+
+.notebook-open-5 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 65%;
+  visibility: hidden;
+}
+
+.notebook-open-6 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 65%;
+  visibility: hidden;
+}
+
+.left-arrow-icon {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  height: 2rem;
+}
+
+.right-arrow-icon {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  height: 2rem;
+}
+
+.exit-arrow-icon {
+  cursor: pointer;
+  position: absolute;
+  top: 10%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  height: 1rem;
+}
+
+.left-arrow-icon:hover, .right-arrow-icon:hover {
+  height: 2.5rem;
+}
+.exit-arrow-icon:hover {
+  height: 1.5rem;
+}
+
+.notebook-text-wrapper-right {
+  position: absolute;
+  top: 50%;
+  left: 64.5%;
+  transform: translate(-50%, -50%);
+  height: auto;
+  width: 26vw;
+}
+
+.notebook-text {
+  direction: rtl;
+  font-size: 2vw;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* -------------------------------------------- folder -------------------------------------------- */
+
+.folder-open {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.8);
+  visibility: hidden;
+}
+
+.folder-open-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 65%;
+}
+
+.exit-arrow-icon-2 {
+  cursor: pointer;
+  position: absolute;
+  top: 10%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  height: 1rem;
+}
+
+.exit-arrow-icon-2:hover {
+  height: 1.5rem;
+}
+
+.folder-info {
+  position: absolute;
+  top: 50%;
+  left: 65.5%;
+  transform: translate(-50%, -50%);
+  height: auto;
+  width: 29vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.introduction-text {
+  direction: rtl;
+  font-size: 1.6vw;
+  text-align: right;
+  font-weight: 500;
+}
+
+.introduction-img {
+ max-width: 12rem;
+ width: 100%;
+ height: auto;
+ border-radius: 100%;
+}
+
+/* ------------------------------------------- media query ------------------------------------------- */
+
+@media screen and (max-width: 768px) {
+  .plant-img {
+    max-width: 7em;
+    top: 52%;
+    left: 20%;
+  }
+  .phone-1 {
+    top: 54%;
+    left: 73%;
+  }
+  .phone-2 {
+    top: 54%;
+    left: 73%;
+  }
+  .phone-3 {
+    top: 54%;
+    left: 73%;
+  }
+  .phone-4 {
+    top: 54%;
+    left: 73%;
+  }
+  .phone-5 {
+    top:  54.5%;
+    left: 73.5%;
+  }
+  .coffee-img {
+    max-width: 4em;
+    top: 64%;
+    left: 86%;
+  }
+  .folder-1 {
+    top: 78%;
+    left: 56%;
+  }
+  .folder-2 {
+    top: 78%;
+    left: 56%;
+  }
+  .folder-3 {
+    top: 78%;
+    left: 56%;
+  }
+  .notebook-1 {
+    max-width: 10em;
+    top: 78%;
+    left: 18%;
+  }
+  .notebook-2 {
+    max-width: 10em;
+    top: 78%;
+    left: 18%;
+  }
+  .notebook-3 {
+    max-width: 10em;
+    top: 78%;
+    left: 18%;
+  }
+  .pencil-img {
+    max-width: 2em;
+    top: 76%;
+    left: 48%;
+  }
+  .pen-img {
+    max-width: 2.5em;
+    top: 62%;
+    left: 40%;
+  }
+  .laptop-1 {
+    top: 18%;
+  }
+  .laptop-2 {
+    top: 18%;
+  }
+  .laptop-3 {
+    top: 18%;
+  }
+  .laptop-4 {
+    top: 18%;
+  }
+  .laptop-screen {
+    top: 18%;
+  }
+  .laptop-additional {
+    top: 18%;
+  }
+}
